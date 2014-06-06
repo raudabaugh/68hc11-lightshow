@@ -23,6 +23,7 @@ The implementation consists of 3 files:
  - `main.asm` - Main Routine
  - `subroutines1.asm` - TEMPS, SHOW
  - `subroutines2.asm` - UPDATE, DELAY, GETKEY, BOUNCE
+
 Designs were implemented using a PC running the THRSim11 development environment. The PC was connected to the 68HC11 through an RS232 cable. Code was tested with THRSim11's simulation capabilities before assembling and downloading to the board.
 
 I encountered some difficulties with the wiring of the circuit on my particular breadboard setup. If the wiring was incorrect, then some key values would not be correctly reported to the processor. In such cases I reverted back to a standard keypad test program and addressed any wiring issues before continuing.
